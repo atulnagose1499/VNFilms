@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font icon -->
+    <script
+      src="https://kit.fontawesome.com/57427fa09b.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <!--  -->
+    <link rel="stylesheet" href="./style.css" />
+    <!--  -->
+    <script defer src="./script.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- nav -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="logo.png" alt="Logo" height="40" />
+          My Brand Name
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+          <div class="form-check form-switch">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              id="dark-mode-toggle"
+            />
+            <label class="form-check-label" for="dark-mode-toggle"
+              >Dark Mode</label
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- carousel-control -->
+    <div
+      id="carouselExampleFade"
+      class="carousel slide carousel-fade"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./img/Alumni-Network04.jpg" class="d-block" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./img/Alumni-Network05.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./img/Alumni-Network08.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleFade"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleFade"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- about us -->
+    <section class="welcome-section vh-100 d-flex align-items-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="./img/Alumni-Network02.jpg" class="img-fluid" />
+          </div>
+          <div class="col-md-6">
+            <h1>Welcome to My Website</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut
+              ante at risus accumsan vulputate. Vivamus consectetur, ligula sit
+              amet fringilla luctus, velit velit tincidunt urna, nec sodales
+              ipsum elit a elit.
+            </p>
+            <button class="btn btn-primary">Learn More</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- skills-section  -->
+    <section class="skills-section vh-100 align-items-center">
+      <div class="container">
+        <h2 class="mb-4">Skills and Accomplishments</h2>
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <img src="./img/Alumni-Network05.jpg" alt="Acting" class="img-fluid mb-3" />
+            <h3>Acting</h3>
+            <ul class="list-unstyled">
+              <li>Starred in 10+ films and TV shows</li>
+              <li>Nominated for Best Actor award at Cannes Film Festival</li>
+              <li>Trained in method acting with renowned coach</li>
+            </ul>
+            <a href="#" class="btn btn-primary">Learn More</a>
+          </div>
+          <div class="col-md-4 mb-4">
+            <img
+              src="./img/Alumni-Network09.jpg"
+              alt="Writing and Directing"
+              class="img-fluid mb-3"
+            />
+            <h3>Writing and Directing</h3>
+            <ul class="list-unstyled">
+              <li>Written and directed 2 award-winning short films</li>
+              <li>Screenplay featured on The Black List</li>
+              <li>Graduated from prestigious film school</li>
+            </ul>
+            <a href="#" class="btn btn-primary">Learn More</a>
+          </div>
+          <div class="col-md-4 mb-4">
+            <img
+              src="./img/Alumni-Network06.jpg"
+              alt="Producing"
+              class="img-fluid mb-3"
+            />
+            <h3>Producing</h3>
+            <ul class="list-unstyled">
+              <li>Produced 5 feature films and 3 TV series</li>
+              <li>Recipient of Producers Guild of America award</li>
+              <li>Expert in film financing and distribution</li>
+            </ul>
+            <a href="#" class="btn btn-primary">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--  -->
+    
+    </div>
+  </body>
+</html>
