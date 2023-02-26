@@ -1,3 +1,53 @@
-.carousel-item img {
-  width: 100vw;
+/* 
+ */
+
+/* carousel zoom-out*/
+.zoom-out {
+  transform: scale(0.85);
+  transition: transform 0.5s ease;
+}
+
+.zoom-out:hover {
+  transform: scale(1);
+}
+
+/*  */
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+.overlay:hover {
+  opacity: 1;
+}
+.overlay-description {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  opacity: 0.9;
+}
+
+/* footer */
+/* Add some padding to the top and bottom of the footer */
+footer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/* Style the social media links */
+.social-links a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: #f8f9fa;
+  margin-right: 10px;
+  color: #212529;
+  transition: all 0.3s ease;
+}
+
+.social-links a:hover {
+  background-color: #212529;
+  color: #fff;
 }
